@@ -35,3 +35,23 @@ const myFunction = function(){
 console.log(typeof myFunction);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+let myName = "Abhijeet Bhingardeve";
+let myPetName = myName;
+myPetName = "dada";
+
+console.log(myName);
+console.log(myPetName);
+
+let user1 ={
+    email : "abhijeet@gmail.com",
+    upiId : "user@sbi"
+}
+
+let user2 = user1;
+
+user2.email = "ab@gmail.com";
+
+console.log(user1);
+console.log(user2);
+
